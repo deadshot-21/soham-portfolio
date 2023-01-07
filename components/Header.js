@@ -20,6 +20,7 @@ export const Header = ({ seo }) => {
 			<meta property="twitter:description" content={seo.description} />
 			<meta property="twitter:image" content={seo.image} />
 			<meta name="robots" content="Index" />
+			<link rel="shortcut icon" href="/soham-portfolio/favicon.ico" /> 
 		</Head>
 	);
 };
