@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Contact = ({ title, description, icons }) => {
 	return (
-		<div id="contact" className="bg-white py-5 px-5">
+		<div id="contact" className="bg-dark py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-5">
@@ -31,7 +31,7 @@ export const Contact = ({ title, description, icons }) => {
 
 export const Footer = () => {
 	return (
-		<footer className="bg-white text-center py-2 px-5">
+		<footer className="bg-dark text-center py-2 px-5">
 			<div className="container text-muted">
 				<small>&copy; Copyright {new Date().getFullYear()} </small>
 			</div>

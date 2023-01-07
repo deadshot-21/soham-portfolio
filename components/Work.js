@@ -90,7 +90,7 @@ export const SkillCardWithTools = ({
 		>
 			<h4 className="text-primary">{title}</h4>
 			<p className="text-dark">{description}</p>
-			<div className="text-end">
+			<div className="text-end mt-auto">
 				{icons &&
 					icons.map((value, index) =>
 						isIconify ? (
