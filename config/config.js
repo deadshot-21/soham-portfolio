@@ -67,7 +67,7 @@ export const work = {
 				"logos:docker-icon",
 				"logos:heroku-icon",
 				"logos:firebase",
-				"logos:mongodb",
+				"vscode-icons:mongodb",
 			],
 		},
 		{
