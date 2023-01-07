@@ -1,8 +1,8 @@
 {
   "short_name": "Portfolio",
-  "name": "Hanzla Tauqeer",
-  "description": "A passionate Full Stack Web Developer and Blockchain Developer.",
+  "name": "Soham Faldu",
+  "description": "A passionate Full Stack Web Developer and Flutter Developer.",
   "display": "standalone",
-  "theme_color": "#2B6CB0",
-  "background_color": "#2B6CB0"
+  "theme_color": "#228B22",
+  "background_color": "#228B22"
 }
