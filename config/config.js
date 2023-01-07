@@ -1,6 +1,7 @@
 import profile from "./profile.png";
 import {
 	faGithub,
+	faGooglePlay,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -87,57 +88,101 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "Developer Portfolio",
+			title: "Mobile Application for Chotadhobi Laundry Solutions",
 			description:
-				"Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.",
+				"The program will automate the laundry process for VIT Vellore students. It will be used by around 20,000 students on campus.",
 			icons: [
 				{
-					icon: faGithub,
-					link: "https://github.com/1hanzla100/developer-portfolio",
+					icon: faGooglePlay,
+					link: "https://play.google.com/store/apps/details?id=com.chotadhobi.chhotadhobi_app",
 				},
 			],
 		},
 		{
-			title: "NFT Minter",
+			title: "IRIS - Windows Voice Assistant",
 			description:
-				"NFT Minter based on Avalanche Blockchain built with React.js, TypeScript & Pinata.",
+				"IRIS is a virtual assistant for Windows that uses AI and speech recognition to assist with basic tasks, online browsing, and text-to-speech. It can also be used for voice typing and is helpful for both non-technical and tech-savvy users.",
 			icons: [
 				{
-					icon: faGlobe,
-					link: "https://ipfs.fleek.co/ipfs/QmRtDqNNjFoixAoEs8qXgzk6TTQJY3WxYRkB1Jtcpfi4yB/",
+					// icon: faGlobe,
+					link: "",
 				},
 			],
 		},
 		{
-			title: "Technota",
+			title: "Tassie - Social Media App",
 			description:
-				"Technota is a Forum built for developers to ask questions and community can answer their questions.",
+				"Development of a social media platform using Flutter and Node.js API which connected the app to the database. For the database and images, MongoDB, and AWS were used respectively.",
 			icons: [
 				{
-					icon: faGithub,
-					link: "https://github.com/1hanzla100/django-react-forum",
+					icon: faGooglePlay,
+					link: "https://play.google.com/store/apps/details?id=com.designike.tassie",
 				},
 			],
 		},
 		{
-			title: "Shopaza",
+			title: "Chakravyuh - IDAM",
 			description:
-				"Shopaza is Ecommerce website built with django. Now your reach to all your favorite items is just one touch apart.",
+				"Chakravyuh is an organizational role-based access control system that allows admins to distribute credentials efficiently and maintain access logs. It also includes data protection, access control policies, teamwork and communication, and cryptography.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/1hanzla100/django-react-forum",
+					link: "https://github.com/Shastram/chakravyuh-app",
 				},
 			],
 		},
 		{
-			title: "Atlas Mart",
+			title: "Labory - Clinical Laboratory Assistant",
 			description:
-				"Atlas Mart is a OLX like Marketplace built with Python, Django, React.js & Integrated Mapbox.",
+				"It is a user-friendly software for managing clinical laboratory tasks using NODEJS and ELECTRONJS. It stores data in a NoSQL database and allows users to auto-generate and print PDF reports.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/1hanzla100/django-react-forum",
+					link: "https://github.com/parthnamdev/laboratory-management-system/tree/master/labory",
+				},
+			],
+		},
+		{
+			title: "Ecolyf (Cycle renting ecosystem) - Flutter app, website, APIt",
+			description:
+				"Automatic QR-based cycle renting system. NodeJS was used for API which was integrated with the express web app and Flutter app.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/parthnamdev/ecolyf-api",
+				},
+			],
+		},
+		{
+			title: "Scanese - CT Intensity Segmentation of Lungs",
+			description:
+				"This web app will take .nii files as input and detect the infected area, generating a report of the percent damage done to the lungs due to COVID-19. It will automate the process with high accuracy using Image Processing.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/deadshot-21/Scanese",
+				},
+			],
+		},
+		{
+			title: "Unware - Android Malware Detection",
+			description:
+				"Web app in python using Machine Learning to detect malicious APKs through static analysis and prediction.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/deadshot-21/Unware",
+				},
+			],
+		},
+		{
+			title: "Cryptocurrency & ICO",
+			description:
+				"It involved the development of a cryptocurrency using Solidity and an ICO website connected with the Smart contract. Ganache was used for the blockchain.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/deadshot-21/Cryptocurrency-ICO",
 				},
 			],
 		},
@@ -170,7 +215,7 @@ export const SEO = {
 		"Full Stack Developer, Flutter Developer & Quantum Computing Enthusiast.",
 	author: "Soham Faldu",
 	image: profile.src,
-	url: "https://1hanzla100.github.io",
+	url: "https://deadshot-21.github.io/soham-portfolio/",
 	keywords: [
 		"Soham",
 		"Soham Faldu",
