@@ -20,8 +20,8 @@
 // bootstrap overrides 
 // $primary: #2B6CB0 ;
 $primary:#228B22;
-$secondary: #202020;
-$light: #101010;
+$secondary: #101010;
+$light: #202020;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -120,6 +120,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 a {
@@ -134,7 +135,7 @@ color: $primary;
 
 .card-work {
 	transition: box-shadow .3s;
-  color: $secondary;
+  background-color: $light;
 }
 
 .card-work:hover {
@@ -161,4 +162,5 @@ color: $primary;
 	font-family: Augestina !important;
 	text-transform: capitalize;
   font-display: swap;
+  color: white !important;
 }
