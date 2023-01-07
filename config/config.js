@@ -12,8 +12,8 @@ export const navigation = {
 };
 export const intro = {
 	title: "Hey there! I'm Soham Faldu",
-	description:
-		"Full Stack Developer, Flutter Developer & Quantum Computing Enthusiast.",
+	description:"",
+		// "Full Stack Developer, Flutter Developer & Quantum Computing Enthusiast.",
 	image: "https://media.licdn.com/dms/image/C4D03AQFtYqLQrHj3Ww/profile-displayphoto-shrink_800_800/0/1660965921653?e=1678320000&v=beta&t=4KQMZEZkqVoS4VNNJuPOWStXKHKQRMiXGmO4Bolja1g",
 	buttons: [
 		{
