@@ -54,8 +54,8 @@ export const Card = ({ title, description, icons }) => {
 			style={{ width: "20rem" }}
 		>
 			<h4 className="text-primary">{title}</h4>
-			<p className="text-dark">{description}</p>
-			<div className="text-end">
+			<p className="text-light">{description}</p>
+			<div className="text-end mt-auto">
 				{icons &&
 					icons.map((value, index) => (
 						<Link
@@ -89,7 +89,7 @@ export const SkillCardWithTools = ({
 			style={{ width: "20rem" }}
 		>
 			<h4 className="text-primary">{title}</h4>
-			<p className="text-dark">{description}</p>
+			<p className="text-light">{description}</p>
 			<div className="text-end mt-auto">
 				{icons &&
 					icons.map((value, index) =>
