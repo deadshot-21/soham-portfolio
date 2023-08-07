@@ -14,7 +14,7 @@ export const intro = {
 	title: "Hey there! I'm Soham Faldu",
 	description:"",
 		// "Full Stack Developer, Flutter Developer & Quantum Computing Enthusiast.",
-	image: "https://media.licdn.com/dms/image/C4D03AQFtYqLQrHj3Ww/profile-displayphoto-shrink_400_400/0/1660965921653?e=1691020800&v=beta&t=2z50VRNo95kApckZG1uZN3nHZt1Yf4m1oC2gxz0je0I",
+	image: "https://drive.google.com/file/d/1nzSfmIHyqPlF9rHrPtEOgUKiTr5xEMy6/view?usp=sharing",
 	buttons: [
 		{
 			title: "Contact Me",
