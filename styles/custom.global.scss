@@ -29,7 +29,7 @@ $light: #4f4f51;
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-$card-border-radius: 200px;
+$card-border-radius: 15px;
 
 
 
@@ -147,7 +147,7 @@ color: $primary;
 
 .card-image {
 	transition: all .3s;
-  border-radius: $card-border-radius;
+  border-radius: 200px;
   box-shadow: 1rem 1rem $primary;
 }
 
